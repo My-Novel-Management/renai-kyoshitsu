@@ -19,6 +19,9 @@ _ = W.getWho()
 ## scenes
 def sc_tmp(w: World):
     return w.scene("Sc: xxx",
+            camera=w.taro,
+            stage=w.on_street,
+            day=w.in_current, time=w.at_afternoon,
             )
 
 ## episode
