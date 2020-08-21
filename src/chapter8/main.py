@@ -31,7 +31,7 @@ def ep_tmp(w: World):
             )
 
 ## chapter
-def ch_tmp(w: World):
-    return w.chapter("Ch: xxx",
+def ch8_littlelove(w: World):
+    return w.chapter("第八話「小さな恋の唄」",
             ep_tmp(w),
             )
